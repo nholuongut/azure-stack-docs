@@ -1,0 +1,95 @@
+### YamlMime:Landing
+
+title: Azure Stack Hub user documentation # < 60 chars
+summary: Azure Stack Hub is a hybrid cloud platform that lets you use Azure services from your company's or service provider's datacenter. # < 160 chars
+
+metadata:
+  title: Azure Stack Hub documentation - tutorials, API reference
+  description: Azure Stack Hub is a hybrid cloud platform that lets you use Azure services from your company's or service provider's datacenter.
+  ms.service: azure-stack
+  ms.topic: landing-page
+  author: sethmanheim
+  ms.author: sethm
+  ms.date: 03/19/2020
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About Azure Stack Hub
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Azure Stack Hub?
+            url: user-overview.md
+          - text: Differences between Azure and Azure Stack Hub
+            url: azure-stack-considerations.md
+
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Create a Windows VM
+            url: azure-stack-quick-windows-portal.md
+          - text: Create a Linux VM
+            url: azure-stack-quick-linux-portal.md
+      - linkListType: tutorial
+        links:
+          - text: Create a VM from a template
+            url: azure-stack-create-vm-template.md
+          - text: Deploy a C# web app to a Windows VM
+            url: azure-stack-dev-start-howto-vm-dotnet.md
+          - text: Deploy a Java web app
+            url: azure-stack-dev-start-howto-vm-java.md
+          - text: Deploy a Python web app
+            url: azure-stack-dev-start-howto-vm-python.md
+  # Card
+  - title: Configure your client
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Install Azure Stack Hub PowerShell
+            url: ../operator/powershell-install-az-module.md?toc=/azure-stack/user/toc.json&bc=/azure-stack/breadcrumb/toc.json?view=azs-2002
+          - text: Install CLI for Azure Stack Hub
+            url: azure-stack-version-profiles-azurecli2.md
+      - linkListType: sample
+        links:
+          - text: Use Docker to run PowerShell
+            url: azure-stack-powershell-user-docker.md
+          - text: Use Visual Studio Code
+            url: azure-stack-dev-start-vscode-azure.md
+
+  # Card
+  - title: Infrastructure-as-a-Service (IaaS) on Azure Stack Hub
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Quickstart - Create a VM
+            url: azure-stack-quick-linux-portal.md
+      - linkListType: how-to-guide
+        links:
+          - text: Migrate VMs
+            url: vm-move-overview.md
+          - text: Deploy a VM in IaaS with a template
+            url: azure-stack-create-vm-template.md
+          - text: Configure a virtual network
+            url: deploy-foundational-patterns.md
+          - text: Host Apps written in your code
+            url: azure-stack-dev-start-deploy-app.md
+          - text: Deploy a GPU IoT module
+            url: gpu-deploy-sample-module.md
+
+  # Card
+  - title: Platform-as-a-Service (PaaS) on Azure Stack Hub
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Deploy a Service Fabric cluster
+            url: azure-stack-solution-template-service-fabric-cluster.md
+          - text: Deploy a container to Azure Stack Hub registry
+            url: container-registry-overview.md
+          - text: Deploy an Azure Kubernetes Services (AKS) cluster
+            url: aks-overview.md

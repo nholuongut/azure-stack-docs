@@ -1,0 +1,107 @@
+### YamlMime:Landing
+
+title: Azure Stack Hub Operator Documentation
+summary: Microsoft Azure Stack Hub is a hybrid cloud platform that lets you provide Azure services from your datacenter. Learn how to manage Azure Stack Hub.
+
+metadata:
+  title: Azure Stack Hub Documentation - Tutorials, API Reference
+  description: Learn how to manage the Azure Stack Hub integrated systems infrastructure and how to offer services with our quickstarts and tutorials.
+  services: azure-stack
+  ms.service: azure-stack
+  ms.topic: landing-page
+  author: sethmanheim
+  ms.author: sethm
+  ms.date: 04/13/2020
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About Azure Stack Hub
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Azure Stack Hub?
+            url: azure-stack-overview.md
+          - text: What is Azure Stack HCI?
+            url: ../hci/overview.md
+      - linkListType: whats-new
+        links:
+          - text: Security updates
+            url: ./release-notes-security-updates.md
+          - text: Release notes
+            url: ./release-notes.md
+          - text: Azure Stack Hub Capacity Planner
+            url: azure-stack-capacity-planning-overview.md
+
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: learn
+        links:
+          - text: Use the administration portal 
+            url: azure-stack-manage-portals.md
+          - text: Offer a service to users 
+            url: tutorial-offer-services.md
+          - text: Test a service offering
+            url: tutorial-test-offer.md
+      - linkListType: concept
+        links:
+          - text: Compare connection models
+            url: azure-stack-connection-models.md
+          - text: Connected deployment 
+            url: azure-stack-connected-deployment.md
+          - text: Disconnected deployment  
+            url: azure-stack-disconnected-deployment.md
+
+  # Card          
+  - title: Azure Stack Hub tools
+    linkLists:
+      - linkListType: download
+        links:
+          - text: Download Azure Stack Hub tools from GitHub 
+            url: azure-stack-powershell-download.md
+          - text: Install Azure Stack PowerShell 
+            url: powershell-install-az-module.md
+          - text: Connect with Azure Stack PowerShell
+            url: azure-stack-powershell-configure-admin.md
+          - text: Download the Azure Stack Development Kit (ASDK) 
+            url: ../asdk/asdk-download.md
+
+  # Card
+  - title: Try Azure Stack Hub
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Prepare the ASDK host 
+            url: ../asdk/asdk-prepare-host.md
+          - text: Install the ASDK 
+            url: ../asdk/asdk-install.md
+          - text: ASDK admin basics 
+            url: ../asdk/asdk-admin-basics.md
+
+  # Card
+  - title: Offer services
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Create an offer for a virtual machine
+            url: ./tutorial-offer-services.md
+          - text: Create a highly available MySQL database
+            url: azure-stack-tutorial-mysql.md
+          - text: Create apps for any platform
+            url: azure-stack-app-service-overview.md
+
+  # Card
+  - title: Manage Azure Stack Hub
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Monitor health and alerts 
+            url: azure-stack-monitor-health.md
+          - text: Install updates and monitor progress
+            url: azure-stack-apply-updates.md
+          - text: Back up and restore configuration and service data 
+            url: azure-stack-backup-infrastructure-backup.md

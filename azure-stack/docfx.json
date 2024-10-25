@@ -1,0 +1,248 @@
+{
+  "build": {
+    "content": [
+      {
+        "group": "version-ash",
+        "src" : "asdk",
+        "dest" : "asdk",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "group": "version-ash",
+        "src" : "operator",
+        "dest" : "operator",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "group": "version-ash",
+        "src" : "partner",
+        "dest" : "partner",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "group": "version-ash",
+        "src" : "user",
+        "dest" : "user",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
+        "src": ".",
+        "dest": ".",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "asdk/**",
+          "operator/**",
+          "partner/**",
+          "user/**",
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
+        ],
+        "src": "asdk",
+        "dest": "asdk",
+        "group": "version-ash",
+        "exclude": [
+          "**/obj/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
+        ],
+        "src": "operator",
+        "dest": "operator",
+        "group": "version-ash",
+        "exclude": [
+          "**/obj/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
+        ],
+        "src": "partner",
+        "dest": "partner",
+        "group": "version-ash",
+        "exclude": [
+          "**/obj/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
+        ],
+        "src": "user",
+        "dest": "user",
+        "group": "version-ash",
+        "exclude": [
+          "**/obj/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      },
+      {
+        "src": ".",
+        "dest": ".",
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif",
+          "**/*.json"
+        ],
+        "exclude": [
+          "asdk/**",
+          "operator/**",
+          "partner/**",
+          "user/**",
+          "**/obj/**",
+          "_themes/**",
+          "_themes.pdf/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "feedback_system": "Standard",
+      "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/6/azure-stack-hci",
+      "feedback_help_link_type": "get-help-at-qna",
+      "feedback_product_url": "https://feedback.azure.com/forums/344565-azure-stack",
+      "breadcrumb_path": "/azure-stack/breadcrumb/toc.json",
+      "uhfHeaderId": "azure",
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "Azure.azure-documents",
+          "folder_relative_path_in_docset": "articles/azure-stack/"
+        }
+      },
+      "manager":"femila",
+      "ms.service": "azure-stack",
+      "recommendations": true
+    },
+    "fileMetadata": {
+      "titleSuffix": {
+        "**/*.md": "Azure Stack Hub",
+        "asdk/**/*.md": "Azure Stack Development Kit (ASDK)",
+        "hci/**/*.md": "Azure Stack HCI",
+        "hybrid/**/*.md": "Azure Stack"
+      },
+      "feedback_product_url": {
+        "hci/**/*.md": "https://feedback.azure.com/d365community/forum/74a4b1b9-0725-ec11-b6e6-000d3a4f07b8"
+      },
+      "feedback_help_link_url": {
+        "hci/**/*.md": "https://learn.microsoft.com/answers/tags/6/azure-stack-hci",
+        "hci/**/*.yml": "https://learn.microsoft.com/answers/tags/6/azure-stack-hci",
+        "operator/**/*.md": "https://learn.microsoft.com/answers/tags/205/azure-stack-hub",
+        "user/**/*.md": "https://learn.microsoft.com/answers/tags/205/azure-stack-hub",
+        "mdc/**/*.md": "https://learn.microsoft.com/answers/tags/205/azure-stack-hub",
+        "asdk/**/*.md": "https://learn.microsoft.com/answers/tags/205/azure-stack-hub",
+        "partner/**/*.md": "https://learn.microsoft.com/answers/tags/205/azure-stack-hub",
+        "reference/**/*.md": "https://learn.microsoft.com/answers/tags/205/azure-stack-hub"
+      },
+      "ms.subservice": {
+        "asdk/**/*.md": "azure-stack-hub-asdk",
+        "hci/**/*.md": "azure-stack-hci",
+        "mdc/**/*.md": "azure-stack-hub-mdc",
+        "operator/**/*.md": "azure-stack-hub",
+        "partner/**/*.md": "azure-stack-hub",
+        "reference/**/*.md": "azure-stack-hub",
+        "user/**/*.md": "azure-stack-hub"
+      }
+    },
+    "template": [],
+    "dest": "AzureStack",
+    "markdownEngineName": "markdig",
+    "groups": {
+      "version-ash": {
+        "moniker_range": ">=azs-1802",
+        "dest": "version-ash"
+      }
+    }
+  }
+}
