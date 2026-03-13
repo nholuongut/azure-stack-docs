@@ -33,7 +33,6 @@ For more information, see the [Code of Conduct FAQ](https://opensource.microsoft
 * [Email Address](luongutnho@hotmail.com)
 
 ![](https://i.imgur.com/waxVImv.png)
-![](Donate.png)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nholuong)
 
 # License
